@@ -3,10 +3,20 @@
 
  ![Earthquake explorer](https://github.com/joshclemm/earthquake-explorer/blob/main/assets/images/explore_quakes.jpg)
 
-# data sets
+ See live demo at https://earthquakealert.net/explore/
 
+# Data sets
+
+## Earthquakes
  Includes an earthquake layer that renders a custom earthquake shape using the USGS earthquake API.
 
- Includes geojson coordinates for the Ring of Fire, the world volcanoes, tectonic boundaries, and the full tectonic plates with plate names for the larger ones.
+## Volcanoes
+  Includes geojson coordinates for the world volcanoes
 
- See live demo at https://earthquakealert.net/explore/
+## Tectonic Plates
+  Includes both plain boundaries and the enclosed polygon plates. For the larger plates, included names centered within their respective plate.
+
+## Ring of Fire
+
+Where most large earthquakes happen during any given day.
+
