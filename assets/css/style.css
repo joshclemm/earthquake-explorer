@@ -1,0 +1,274 @@
+p {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.container {
+  position: relative;
+}
+
+.bg-1 {
+  background-image: url("/assets/images/globe_quakes.jpg");
+}
+
+.bg-opacity {
+  position: relative;
+}
+
+.bg-opacity:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.section {
+  padding: 24px 24px;
+}
+
+.page-header {
+  padding: 30px 0px;
+  margin-bottom: 20px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+}
+
+.btn-main {
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 15px 40px;
+  display: inline-block;
+  background-color: #1B7C4B;
+}
+
+.btn-main:hover,
+.btn-main:focus {
+  background-color: #14633C;
+  color: #fff;
+}
+
+.heading {
+  text-align: center;
+  color: #777777;
+  padding-bottom: 70px;
+}
+
+.heading h2 {
+  color: #3c3c3c;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+.heading p {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.subheading {
+  color: #3c3c3c;
+  padding-bottom: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 45px;
+}
+
+/*--
+      .hero-area start
+  --*/
+.hero-area h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-bottom: 19px;
+  margin-top: 30px;
+  line-height: 1.2;
+}
+
+.hero-area p {
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.hero-area .btn-main {
+  margin-top: 30px;
+}
+
+.hero-area.section {
+  padding-bottom: 50px;
+}
+
+/* .hero-area  */
+.navigation {
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  margin: 0;
+  border: 0;
+}
+
+.navigation .navbar-brand {
+  display: inline-block;
+}
+
+.navigation .navbar-toggler {
+  background: #fff;
+  outline: none;
+  border-radius: 0;
+  float: right;
+}
+
+.navigation .navbar-toggler .material-icons {
+  font-size: 22px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.navbar-brand {
+  color: #444;
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.menu {
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.menu li a:hover,
+.menu li a:focus {
+  background: none;
+}
+
+/*--
+      feature start
+  --*/
+.feature.section {
+  background-image: linear-gradient(to bottom right, #1b5085, #0d2338);
+  color: #fff;
+}
+
+.feature.section h2 {
+  color: #fff;
+}
+
+.feature .feature-box {
+  margin-bottom: 40px;
+}
+
+.feature .feature-box i {
+  font-size: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.feature .feature-box h4 {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.feature .feature-box p {
+  line-height: 1.1;
+}
+
+/*--
+      Feature-list start
+  --*/
+.feature-list .btn-main {
+  margin-top: 15px;
+}
+
+
+footer {
+  text-align: center;
+  background: #eee;
+  border-top: #ccc 1px solid;
+  padding: 50px 0px;
+}
+
+footer .footer-logo {
+  color: #444;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+footer p.copyright-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #888;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+footer p.copyright-text a {
+  color: #282828;
+}
+
+footer p.copyright-text a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,68 @@
+@media (min-width: 768px) and (max-width: 990px) {
+  .navigation .navbar-brand {
+    float: none;
+  }
+
+  #hero {
+    width: 300px;
+  }
+
+  #rowpic {
+    width: 300px;
+  }
+
+  .hero-area h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .navbar-brand-text {
+    font-size: 18px;
+  }
+
+  .navigation {
+    padding: 10px 0;
+  }
+
+  .navbar-toggleable-md .navbar-nav {
+    margin-top: 4.5rem;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  #hero {
+    width: 380px;
+  }
+
+  .embed img {
+    width: 100%;
+  }
+
+  #rowpic {
+    width: 380px;
+  }
+
+  #rowpiccontent {
+    margin-top: 25px;
+  }
+
+  .hero-area h1 {
+    font-size: 32px;
+  }
+
+  .hero-area.section {
+    padding-top: 0px;
+  }
+
+  .section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
