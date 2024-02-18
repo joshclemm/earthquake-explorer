@@ -1,5 +1,7 @@
-# earthquake-explorer
+# Earthquake Explorer
  Load and browse earthquakes using NASA WorldWind SDK
+
+ ![Earthquake explorer](https://github.com/joshclemm/earthquake-explorer/blob/main/assets/images/explore_quakes.jpg)
 
 # data sets
 
